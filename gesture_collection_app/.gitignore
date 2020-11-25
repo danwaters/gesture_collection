@@ -12,7 +12,7 @@
 # Gradlew stuff
 **/android/gradlew
 **/android/gradlew.bat
-# Android related
+# Android related #
 **/android/.gradle
 **/android/captures/
 **/android/local.properties
