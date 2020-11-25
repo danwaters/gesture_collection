@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "3CvV/8LGbnt8iDLoZgKoytQADCBpRKKlzSH1g0dFLETUqcG+y9xXQrtTrVTUsCqaef2ViiTU72PY/qV6H3nI1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kk.LAPTOP-FUGC6147\\source\\repos\\UITest1\\UITest1\\UITest1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\nunit3testadapter\\3.13.0\\nunit3testadapter.3.13.0.nupkg.sha512",
+    "C:\\Users\\kk.LAPTOP-FUGC6147\\.nuget\\packages\\xamarin.forms\\4.8.0.1687\\xamarin.forms.4.8.0.1687.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.uitest\\3.0.5\\xamarin.uitest.3.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
