@@ -19,6 +19,8 @@ allprojects {
     }
 }
 
+
+
 rootProject.buildDir = '../build'
 subprojects {
     project.buildDir = "${rootProject.buildDir}/${project.name}"
@@ -26,6 +28,7 @@ subprojects {
 subprojects {
     project.evaluationDependsOn(':app')
 }
-apply plugin: 'java'
+
+apply plugin: 'base'
 apply plugin: 'com.google.gms.google-services'
 
