@@ -21,6 +21,15 @@ allprojects {
     }
 }
 
+if (project.tasks.findByName('clean') == false) {
+    println '** Clean task was not found. Creating.'
+    task clean(type: Delete) {
+        delete rootProject.buildDir
+    }
+}
+else {
+    println '## Clean task already exists. Not adding one.'
+}
 
 
 rootProject.buildDir = '../build'
