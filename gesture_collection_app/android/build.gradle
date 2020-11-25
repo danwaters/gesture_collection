@@ -28,3 +28,4 @@ subprojects {
 }
 
 apply plugin: 'com.google.gms.google-services'
+apply plugin: 'base'
