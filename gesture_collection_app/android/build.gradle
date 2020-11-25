@@ -26,7 +26,6 @@ subprojects {
 subprojects {
     project.evaluationDependsOn(':app')
 }
-apply plugin: 'base'
-
+apply plugin: 'java'
 apply plugin: 'com.google.gms.google-services'
 
