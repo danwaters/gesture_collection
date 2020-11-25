@@ -10,8 +10,8 @@
 .svn/
 
 # Gradlew stuff
-**/android/gradlew
-**/android/gradlew.bat
+##**/android/gradlew
+##**/android/gradlew.bat
 # Android related #
 **/android/.gradle
 **/android/captures/
