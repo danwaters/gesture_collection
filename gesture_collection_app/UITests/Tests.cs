@@ -1,11 +1,12 @@
 ﻿using System;
-using System.IO;
-using System.Linq;
 using NUnit.Framework;
 using Xamarin.UITest;
 using Xamarin.UITest.Queries;
+using System.Collections;
+using System.Linq.Expressions;
+using System.Linq;
 
-namespace UITest1
+namespace UITests
 {
     [TestFixture(Platform.Android)]
     [TestFixture(Platform.iOS)]
@@ -28,7 +29,7 @@ namespace UITest1
         [Test]
         public void WelcomeTextIsDisplayed()
         {
-            AppResult[] results = app.WaitForElement(c => c.Any());
+            AppResult[] results = app.WaitForElement(e => e.All());
             app.Screenshot("Welcome screen.");
 
             Assert.IsTrue(results.Any());

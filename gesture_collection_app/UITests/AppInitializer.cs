@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using Xamarin.UITest;
 using Xamarin.UITest.Queries;
 
-namespace UITest1
+namespace UITests
 {
     public class AppInitializer
     {

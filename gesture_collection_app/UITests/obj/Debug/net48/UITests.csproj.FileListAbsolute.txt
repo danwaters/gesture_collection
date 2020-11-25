@@ -1,0 +1,12 @@
+/Users/dan/UITests/bin/Debug/net48/test-cloud.exe
+/Users/dan/UITests/bin/Debug/net48/UITests.dll
+/Users/dan/UITests/bin/Debug/net48/UITests.pdb
+/Users/dan/UITests/bin/Debug/net48/nunit.framework.dll
+/Users/dan/UITests/bin/Debug/net48/Xamarin.UITest.dll
+/Users/dan/UITests/obj/Debug/net48/UITests.csprojAssemblyReference.cache
+/Users/dan/UITests/obj/Debug/net48/UITests.AssemblyInfoInputs.cache
+/Users/dan/UITests/obj/Debug/net48/UITests.AssemblyInfo.cs
+/Users/dan/UITests/obj/Debug/net48/UITests.csproj.CoreCompileInputs.cache
+/Users/dan/UITests/obj/Debug/net48/UITests.csproj.CopyComplete
+/Users/dan/UITests/obj/Debug/net48/UITests.dll
+/Users/dan/UITests/obj/Debug/net48/UITests.pdb
