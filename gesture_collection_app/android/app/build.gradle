@@ -43,9 +43,13 @@ android {
         targetSdkVersion 29
 
         // get build ID from continuous integration system
-        versionCode System.getenv('APPCENTER_BUILD_ID').toInteger()
-
-        // versionCode flutterVersionCode.toInteger()
+        if(System.getenv('APPCENTER_BUILD_ID') == null) {
+            versionCode flutterVersionCode.toInteger()
+        }
+        else {
+            versionCode System.getenv('APPCENTER_BUILD_ID').toInteger()
+        }
+    
         versionName flutterVersionName
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
